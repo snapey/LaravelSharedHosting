@@ -69,5 +69,14 @@ You also, cannot run a bash script with just its name, it must be preceded with 
 
 So to run the build script, run `./build.sh`&#x20;
 
+### migrating your database
 
+After running the build script for the first time, you will want to migrate your database so that it is ready for action!
+
+All artisan commands should be run from the `Live` folder
+
+```
+cd Live
+php81 artisan migrate
+```
 
