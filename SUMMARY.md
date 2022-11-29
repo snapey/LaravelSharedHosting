@@ -16,3 +16,6 @@
 * [Connect your server to git](siteground-shared-hosting/connect-your-server-to-git.md)
 * [Create a deployment script](siteground-shared-hosting/create-a-deployment-script.md)
 * [Link this site into your webserver](siteground-shared-hosting/link-this-site-into-your-webserver.md)
+* [Setting up a CRON job](siteground-shared-hosting/setting-up-a-cron-job.md)
+* [Running a Queue Worker](siteground-shared-hosting/running-a-queue-worker.md)
+* [On-going deployments](siteground-shared-hosting/on-going-deployments.md)
