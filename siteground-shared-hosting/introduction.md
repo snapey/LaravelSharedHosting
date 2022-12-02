@@ -12,3 +12,5 @@ There looks to be a lot of steps but each is very quick, and most will be needed
 4. Composer Install the vendor folder
 5. Swap running site over to the new deployment
 
+Plus optional steps to add an SSL certificate (why not), create a cron job to run the scheduler, or run a queue.
+
