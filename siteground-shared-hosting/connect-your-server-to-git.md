@@ -1,6 +1,6 @@
 # Connect your server to git
 
-Code will get onto the server via \`git clone\` and for this, your repository needs a deployment key adding into your github account (deployment from Bitbucket or GitLab is very similar, just search for deploy keys).
+Your project will be deployed to the server via `git clone` and for this, your repository needs a deployment key adding into your github account (deployment from Bitbucket or GitLab is very similar, just search for **deploy keys**).
 
 First we need to create a public private key pair on our SiteGround server.
 
@@ -15,8 +15,6 @@ You share the contents of `id_rsa.pub` with Github, so `cat` it to the screen an
 Now in github, go to Settings and Deploy Keys
 
 Add a label (eg your domain name) and paste the key you just copied into the key box.
-
-DO NOT check the box for write access.  This server does not need to update your server.
 
 {% hint style="warning" %}
 DO NOT check the box for write access.  This server does not need to update your repository.

@@ -6,7 +6,7 @@ The great benefit of this setup is the reliability it brings to the whole deploy
 2. Commit to your code repository
 3. SSH into the server
 4. Change to the project folder
-5. Run \`./build.sh\`
+5. Run `./build.sh`
 
 Your new code will be deployed in under 10 seconds, with no downtime for the users
 

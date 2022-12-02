@@ -19,7 +19,7 @@ DEPLOYMENT_DIRECTORY=$UNIX_TIME
 PROJECT=$(pwd)
 
 mkdir -p $DEPLOYMENT_DIRECTORY
-git clone --depth 1 git@github.com:novateltd/smallchart.com.git $DEPLOYMENT_DIRECTORY
+git clone --depth 1 git@github.com:novateltd/example.org.git $DEPLOYMENT_DIRECTORY
 
 cd $DEPLOYMENT_DIRECTORY
 
