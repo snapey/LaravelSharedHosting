@@ -5,7 +5,7 @@ Create a master folder which will hold
 * the .env file to be copied into each deployment
 * the storage folder so that it survives deployments
 
-If your website name is example.org then navigate to the \~/www/example.org folder. Then execute the following;
+If your website name is **example.org** then navigate to the \~/www/**example.org** folder. Then execute the following;
 
 ```shell
 mkdir master && cd master && \
