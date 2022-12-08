@@ -7,3 +7,9 @@ This process does not include any front-end build process on the server as I pre
 
 If you want to do the same with Laravel 9 and Vite, make sure to remove `/public/build` from the .gitignore file in the root of your project.
 {% endhint %}
+
+### Version Control
+
+This guide relies on deploying from a GIT flavoured repository (Gitlab / Github / BitBucket) so make sure you are committing your source code when it is ready to be deployed.
+
+Your .env file should NOT be part of your committed code.
