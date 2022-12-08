@@ -14,3 +14,9 @@ There looks to be a lot of steps but each is very quick, and most will be needed
 
 Plus optional steps to add an SSL certificate (why not), create a cron job to run the scheduler, or run a queue.
 
+This article is not written with SiteGround input, but there is an affiliate link below which will help me if you can use it to start your SiteGround journey.
+
+[![](https://siteground.com/static/affiliate/en/NOPRICE/general\_EN\_general-hosting-square-light.jpg)](https://www.siteground.com/go/yhgyo6ql3v)
+
+
+
