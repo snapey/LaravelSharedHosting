@@ -19,3 +19,4 @@
 * [Setting up a CRON job](siteground-shared-hosting/setting-up-a-cron-job.md)
 * [Running a Queue Worker](siteground-shared-hosting/running-a-queue-worker.md)
 * [On-going deployments](siteground-shared-hosting/on-going-deployments.md)
+* [Deploy from local development](siteground-shared-hosting/deploy-from-local-development.md)
