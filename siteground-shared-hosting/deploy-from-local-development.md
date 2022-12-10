@@ -68,7 +68,7 @@ class Build extends Command
 ```
 {% endcode %}
 
-Add this file into your project then configure lines 14 to 17 for the hosts SSH connection and then add the folder for your remote website on line 18.
+Add this file into your project then configure lines 14 to 16 for the hosts SSH connection and then add the folder for your remote website on line 17.
 
 Now, after making changes to your project and pushing to your repository, you can locally run&#x20;
 
