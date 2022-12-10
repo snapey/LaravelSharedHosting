@@ -1,6 +1,6 @@
 # Running a Queue Worker
 
-Its common that with shared hosting, it is not possible to run supervisor to manage queue workers
+Its common that with shared hosting, it is not possible to run supervisor to manage queue workers.
 
 One approach for non-time sensitive queue work (such as sending emails) is to add a task to the scheduler that starts the queue worker every minute;
 
