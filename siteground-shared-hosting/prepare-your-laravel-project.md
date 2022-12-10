@@ -10,6 +10,9 @@ If you want to do the same with Laravel 9 and Vite, make sure to remove `/public
 
 ### Version Control
 
-This guide relies on deploying from a GIT flavoured repository (Gitlab / Github / BitBucket) so make sure you are committing your source code when it is ready to be deployed.
+This guide relies on deploying from a GIT flavoured repository (Gitlab / Github / BitBucket) so make sure you are committing your source code when it is ready to be deployed.  In the [deployment script](create-a-deployment-script.md) you will specify the name of the branch you wish to deploy from so you could deploy from _main_/_master_ or _deploy_ for instance.
 
-Your .env file should NOT be part of your committed code.
+{% hint style="danger" %}
+Your **.env** file should **NOT** be part of your committed code.
+{% endhint %}
+
