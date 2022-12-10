@@ -7,7 +7,7 @@
 * [Introduction](siteground-shared-hosting/introduction.md)
 * [Prepare your Laravel project](siteground-shared-hosting/prepare-your-laravel-project.md)
 * [Add a hosting account](siteground-shared-hosting/add-a-hosting-account.md)
-* [SSH access to Siteground space](siteground-shared-hosting/ssh-access-to-siteground-space.md)
+* [SSH access to SiteGround space](siteground-shared-hosting/ssh-access-to-siteground-space.md)
 * [Setup a mysql database](siteground-shared-hosting/setup-a-mysql-database.md)
 * [Adding a mail account](siteground-shared-hosting/adding-a-mail-account.md)
 * [The master folder](siteground-shared-hosting/the-master-folder.md)

@@ -19,7 +19,7 @@ DEPLOYMENT_DIRECTORY=$UNIX_TIME
 PROJECT=$(pwd)
 
 mkdir -p $DEPLOYMENT_DIRECTORY
-git clone --depth 1 git@github.com:novateltd/example.org.git $DEPLOYMENT_DIRECTORY
+git clone --depth 1 -b main git@github.com:novateltd/example.org.git $DEPLOYMENT_DIRECTORY
 
 cd $DEPLOYMENT_DIRECTORY
 
@@ -51,9 +51,19 @@ echo
 ```
 {% endcode %}
 
-On line 9, you will need to replace this with the git clone equivalent for your repository
+Copy the above code and create the file in your websites folder using `nano` or the SiteGround file manager.
 
-The parameter `depth=1` ensures that we don't waste time cloning git history. We only need the latest version of the code
+### Configuring the script for your repo
+
+On line 9, you will need to replace this with the git clone equivalent for your repository and branch.
+
+The parameter `--depth 1` ensures that we don't waste time cloning git history. We only need the latest version of the code.
+
+The parameter `-b main` is the git branch that you would like to deploy.
+
+The project name is the `SSH` version of the clone command for your specific repo.
+
+### php version for Artisan
 
 You can see that this is a PHP8.1 project and all artisan commands must specify the php version to be used.  You may create a bashrc alias for this to revert it to just `php`&#x20;
 

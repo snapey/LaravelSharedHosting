@@ -17,7 +17,8 @@ mkdir storage/framework/cache && \
 mkdir storage/framework/cache/data && \
 mkdir storage/framework/sessions && \
 mkdir storage/framework/views && \
-mkdir storage/logs
+mkdir storage/logs && \
+cd ..
 ```
 
 This will create the required empty folder structure for your laravel project's storage&#x20;

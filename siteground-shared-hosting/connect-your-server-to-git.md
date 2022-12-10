@@ -6,11 +6,13 @@ First we need to create a public private key pair on our SiteGround server.
 
 `cd ~/.ssh`
 
-`ssh-keygen -t rsa -P ""` to create an id\_rsa pair with no password. Press enter to use the default filename
+`ssh-keygen -t rsa -P ""` to create an id\_rsa pair with no password. Press enter to use the default filename.
 
 You will now have in this folder `id_rsa` and `id_rsa.pub`
 
 You share the contents of `id_rsa.pub` with Github, so `cat` it to the screen and copy the key from the `ssh-rsa` through to the end which finishes with the site name.
+
+`cat id_rsa.pub`
 
 Now in github, go to Settings and Deploy Keys
 
