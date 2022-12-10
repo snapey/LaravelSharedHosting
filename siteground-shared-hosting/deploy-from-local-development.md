@@ -32,9 +32,9 @@ class Build extends Command
     protected $description = 'Run the build command on the remote server';
 
     protected $server = 'gukm1051.siteground.biz';
-    protected $account = 'u1119-ahcvzbcli3ee';
+    protected $account = 'u1119-ahcvzbcli5de';
     protected $port = 18765;
-    protected $path = '~/www/marks364.sg-host.com';
+    protected $path = '~/www/mark384.sg-host.com';
 
     public function handle()
     {
