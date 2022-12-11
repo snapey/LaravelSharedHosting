@@ -20,3 +20,4 @@
 * [Running a Queue Worker](siteground-shared-hosting/running-a-queue-worker.md)
 * [On-going deployments](siteground-shared-hosting/on-going-deployments.md)
 * [Deploy from local development](siteground-shared-hosting/deploy-from-local-development.md)
+* [Deploy using GitHub Actions](siteground-shared-hosting/deploy-using-github-actions.md)
