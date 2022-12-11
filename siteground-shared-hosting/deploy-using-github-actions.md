@@ -56,5 +56,5 @@ This action spins up an instance of ubuntu server, then connects to your SiteGro
 
 On line 22, change this to reflect the path to your website.
 
-The above deploy action will be performed automatically when a new code release is created, or you can instigate it manually using the Run command from the Actions page in GitHub.
+The above deploy action will be performed automatically when a new code release is created, or you can instigate it manually using the Run Workflow button from the Actions page in GitHub.
 
