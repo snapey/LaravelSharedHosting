@@ -5,7 +5,7 @@ The following deployment script performs the following steps
 1. Creates a new deployment folder
 2. Clones the repository into this deployment folder
 3. Copies the .env file from the master folder
-4. Runs Composer Install so that the project has the same dependencies as your committed version
+4. Runs Composer Install so that the project has the same dependencies as your committed version (see note below regarding Composer version)
 5. Creates links for storage to the master storage folder and from storage/app/public to the public/storage folder
 6. Finally creates a symlink from Live to the deployment folder
 
@@ -90,3 +90,6 @@ cd Live
 php81 artisan migrate
 ```
 
+### Composer Version issues
+
+If you are following this guide and NOT using SiteGround, you may run into an issue where the version of composer available to you is not up to date enough for a Laravel installation.  If this is the case, follow the advice at [https://stackoverflow.com/questions/20894518/how-do-i-install-composer-on-a-shared-hosting/29436655#29436655](https://stackoverflow.com/questions/20894518/how-do-i-install-composer-on-a-shared-hosting/29436655#29436655)
